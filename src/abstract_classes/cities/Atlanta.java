@@ -7,7 +7,7 @@ public class Atlanta extends City{
 		// TODO Auto-generated constructor stub
 	}
 	public double getAnnualTaxes () {
-		return growthRate * population - ;
+		return growthRate * population * (growthRate*2);
 	
 	}
 }

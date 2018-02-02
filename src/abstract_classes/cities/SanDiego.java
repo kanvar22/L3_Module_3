@@ -7,7 +7,7 @@ public class SanDiego extends City{
 		// TODO Auto-generated constructor stub
 	}
 	public double getAnnualTaxes () {
-		return growthRate * population - 1000000;
+		return growthRate * population + 1000000;
 	
 	}
 
